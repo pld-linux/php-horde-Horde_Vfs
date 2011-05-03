@@ -11,7 +11,7 @@ License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
 # Source0-md5:	918ec354bd663de77db4d4fb138caf54
-URL:		http://pear.horde.org/package/Horde_Vfs/
+URL:		https://github.com/horde/horde/tree/master/framework/Vfs/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR >= 1:1.7.0
