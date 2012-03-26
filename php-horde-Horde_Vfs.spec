@@ -5,12 +5,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Virtual File System API
 Name:		php-horde-Horde_Vfs
-Version:	1.0.7
+Version:	1.0.9
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	69539548b7ebc8a66445980d5ab843d7
+# Source0-md5:	0f7ded20590140cda6a49b84d575305d
 URL:		https://github.com/horde/horde/tree/master/framework/Vfs/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
