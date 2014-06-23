@@ -22,7 +22,8 @@ Requires:	php-horde-Horde_Exception < 2.0.0
 Requires:	php-horde-Horde_Translation < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
-Suggests:	php-ftp
+Suggests:	php(ftp)
+Suggests:	php(ssh2)
 Suggests:	php-horde-Horde_Auth
 Suggests:	php-horde-Horde_Core
 Suggests:	php-horde-Horde_Db
@@ -30,7 +31,6 @@ Suggests:	php-horde-Horde_Kolab_Session
 Suggests:	php-horde-Horde_Mime
 Suggests:	php-horde-Horde_Perms
 Suggests:	php-pear-PEAR
-Suggests:	php-pecl-ssh2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
