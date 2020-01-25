@@ -2,7 +2,6 @@
 # - system locale dir
 %define		status		stable
 %define		pearname	Horde_Vfs
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Virtual File System API
 Name:		php-horde-Horde_Vfs
 Version:	1.0.9
